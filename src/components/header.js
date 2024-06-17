@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div className="bg-backgroundSecondary drop-shadow-lg">
+    <div className="bg-backgroundSecondary drop-shadow-lg px-5">
       <div className="container flex items-center justify-between">
         <StaticImage
           src="../images/logo.png"
@@ -13,12 +13,12 @@ const Header = ({ siteTitle }) => (
         />
         {/* add nexter text. make logo bigger */}
         <div className="flex items-center gap-x-6">
-          <a href="#">
+          <a href="https://nexster.xyz/login" target="_blank">
             <div className="hover:border-2 text-white py-1 px-5 rounded-lg">
               Sign In
             </div>
           </a>
-          <a href="#">
+          <a href="https://nexster.xyz/account/reg-link" target="_blank">
             <div className="border-2 bg-white hover:bg-transparent hover:text-white py-1 px-5 rounded-lg">
               Sign Up
             </div>
