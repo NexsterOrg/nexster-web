@@ -21,7 +21,7 @@ const IndexPage = () => (
               for students to make their lives easy and productive.
             </p>
 
-            <a href="#">
+            <a href="https://nexster.xyz" target="_blank">
               <div className="border-2 border-slate-500 hover:bg-primary text-white w-fit py-1 px-5 mt-10 self-center md:self-start font-semibold text-lg">
                 Go To Nexster
               </div>
@@ -55,72 +55,65 @@ const IndexPage = () => (
           <div className="bg-backgroundPrimary">
             <StaticImage
               className="object-cover h-[300px]"
-              src="../images/home-img.png"
+              src="../images/1-student-network.png"
               alt="homepage image"
             />
-            <div className="mx-5">
-              <h4 className="mt-5 text-xl font-semibold text-primary">
-                Feature
+            <div className="mx-5 py-5">
+              <h4 className="my-5 text-xl font-semibold text-slate-400">
+                A network connects all students.
               </h4>
-              <p className="mt-2 text-slate-600">here goes the description.</p>
-
-              <button className="border my-5 text-slate-400 py-2 px-5">
-                Learn More
-              </button>
             </div>
           </div>
 
           <div className="bg-backgroundPrimary">
             <StaticImage
               className="object-cover h-[300px]"
-              src="../images/home-img.jpg"
+              src="../images/2-boardingPlaceFinder.png"
               alt="homepage image"
             />
-            <div className="mx-5">
-              <h4 className="mt-5 text-xl font-semibold text-primary">
-                Feature
+            <div className="mx-5 py-5">
+              <h4 className="my-5 text-xl font-semibold text-slate-400">
+                A marketplace to find boarding accommodations.
               </h4>
-              <p className="mt-2 text-slate-600">here goes the description.</p>
-
-              <button className="border my-5 text-slate-400 py-2 px-5">
-                Learn More
-              </button>
             </div>
           </div>
 
           <div className="bg-backgroundPrimary">
             <StaticImage
               className="object-cover h-[300px]"
-              src="../images/home-img.jpg"
+              src="../images/3-digitalPlaceForEvents.jpg"
               alt="homepage image"
             />
-            <div className="mx-5">
-              <h4 className="mt-5 text-xl font-semibold text-primary">
-                Feature
+            <div className="mx-5 py-5">
+              <h4 className="my-5 text-xl font-semibold text-slate-400">
+                Digital space to promote your events.
               </h4>
-              <p className="mt-2 text-slate-600">here goes the description.</p>
-
-              <button className="border my-5 text-slate-400 py-2 px-5">
-                Learn More
-              </button>
             </div>
           </div>
 
           <div className="bg-backgroundPrimary">
             <StaticImage
               className="object-cover h-[300px]"
-              src="../images/home-img.jpg"
+              src="../images/4-onePlaceToFindStudyMaterials.jpg"
               alt="homepage image"
             />
-            <div className="mx-5">
-              <h4 className="mt-5 text-xl font-semibold text-primary">
-                Feature
+            <div className="mx-5 py-5">
+              <h4 className="my-5 text-xl font-semibold text-slate-400">
+                One place to find all study materials. (upcoming)
               </h4>
-              <p className="mt-2 text-slate-600">here goes the description.</p>
+            </div>
+          </div>
 
-              <button className="border my-5 text-slate-400 py-2 px-5">
-                Learn More
-              </button>
+          <div className="bg-backgroundPrimary">
+            <StaticImage
+              className="object-cover h-[300px]"
+              src="../images/5-connectStudentAndAlumi.jpg"
+              alt="homepage image"
+            />
+            <div className="mx-5 py-5">
+              <h4 className="my-5 text-xl font-semibold text-slate-400">
+                A network connects students and alumni. (upcoming)
+              </h4>
             </div>
           </div>
         </div>
@@ -128,7 +121,7 @@ const IndexPage = () => (
         <div className="w-full h-[300px] md:h-[400px] lg:h-[700px] mt-32 px-5">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/NQ4gLJYspdA?si=MgvWypbN1IoHf50q"
+            src="https://www.youtube.com/embed/98M4SWII9Ac?si=Gq2mYbZJacDffHZS"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
