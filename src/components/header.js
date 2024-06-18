@@ -6,11 +6,14 @@ const Header = ({ siteTitle }) => (
   <header>
     <div className="bg-backgroundSecondary drop-shadow-lg px-5">
       <div className="container flex items-center justify-between">
+        <div className="flex items-center">
         <StaticImage
           src="../images/logo.png"
           alt="logo"
           className="h-16 w-16"
         />
+        <h3 className="text-2xl font-semibold text-white">Nexster</h3>
+          </div>
         {/* add nexter text. make logo bigger */}
         <div className="flex items-center gap-x-6">
           <a href="https://nexster.xyz/login" target="_blank">
