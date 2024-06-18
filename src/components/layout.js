@@ -64,6 +64,18 @@ const Layout = ({ children }) => {
                   className="h-8 w-8"
                 />
               </a>
+              <a
+                className="ml-10"
+                href="https://github.com/NexsterOrg"
+                target="_blank"
+              >
+                <StaticImage
+                  quality={100}
+                  src="../images/github.png"
+                  alt="youtube"
+                  className="h-8 w-8"
+                />
+              </a>
             </div>
           </div>
 
