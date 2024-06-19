@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  // pathPrefix:"/repo",
   siteMetadata: {
     title: `Nexster`,
     description: `Nexster is a one-stop place to find solutions for the needs of university students.`,
